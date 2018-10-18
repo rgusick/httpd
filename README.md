@@ -6,4 +6,5 @@ Customized httpd/2.4 image
   * libemail-sender-perl
   * libmime-lite-perl
   * libimage-magick-perl
+  * mailutils
   * dma
