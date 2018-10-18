@@ -11,4 +11,5 @@ RUN     apt-get update && \
         libemail-sender-perl \
         libmime-lite-perl \
         libimage-magick-perl \
+        mailutils \
         dma
