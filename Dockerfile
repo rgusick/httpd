@@ -10,5 +10,5 @@ RUN     apt-get update && \
         libmime-lite-perl \
         libimage-magick-perl
 
-RUN     DEBIAN_FRONTEND=noninteractive apt-get -qq install \
+RUN     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         dma
