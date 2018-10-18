@@ -8,5 +8,7 @@ RUN     apt-get update && \
         libemail-mime-perl \
         libemail-sender-perl \
         libmime-lite-perl \
-        libimage-magick-perl \
+        libimage-magick-perl
+
+RUN     DEBIAN_FRONTEND=noninteractive apt-get -qq install \
         dma
